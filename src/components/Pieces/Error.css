@@ -1,0 +1,7 @@
+.json-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 20rem;
+}

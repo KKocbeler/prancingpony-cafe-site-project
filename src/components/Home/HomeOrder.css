@@ -1,0 +1,38 @@
+.home-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../public/images/home/home-order.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 8rem;
+    height: 33rem;
+    border-image: 
+    linear-gradient(
+        rgba(145, 104, 60, .4),
+        rgba(145, 104, 60, .4)
+    )
+    fill 1;
+    padding: 6rem;
+}
+
+.home-order h1 {
+    font-size: 5.2rem;
+    margin-bottom: 3rem;
+}
+
+.home-order h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.home-order p {
+    font-weight: bold;
+}
+
+.home-order a {
+    margin-top: 2.6rem;
+    padding: 1.8rem 2.8rem;
+    background-color: var(--dark-bg);
+}

@@ -1,0 +1,42 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 15rem;
+}
+
+.error-number {
+    font-size: 10rem;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, var(--beige-900), var(--dark-bg));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error-title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.error-text {
+    margin: 2rem 0 3rem 0;
+    font-size: 2rem;
+}
+
+.error-button a {
+    font-size: 2rem;
+    border: .1rem solid var(--beige-900);
+    border-radius: .1rem;
+    color: var(--beige-900);
+    padding: 1.8rem 3.6rem;
+    margin-top: 1rem;
+    transition: all .3s;
+}
+
+.error-button a:hover {
+    border-color: var(--light-color);
+    background-color: var(--beige-900);
+    color: var(--light-color);
+}

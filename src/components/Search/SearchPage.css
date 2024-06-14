@@ -1,0 +1,14 @@
+.searched-word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    padding-bottom: .4rem;
+    border-bottom: .3rem solid var(--beige-900);
+    font-size: 2rem;
+}
+
+.searched-word span {
+    font-size: 1.6rem;
+}
+

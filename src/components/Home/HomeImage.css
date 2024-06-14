@@ -1,0 +1,57 @@
+.home-image {
+    background-image: url(../../../public/images/home/home-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    height: 100svh;
+}
+
+.home-image__order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: var(--light-color);
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    z-index: 998;
+}
+
+.home-image__order h1 {
+    font-size: 4rem;
+}
+
+.home-image__order span {
+    font-size: 2rem;
+}
+
+.home-image__order button {
+    padding: 1.4rem 2.8rem;
+    border: none;
+}
+
+.home-image__icon {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fa-mug-hot {
+    font-size: 3rem;
+}
+
+.fa-circle {
+    font-size: .7rem;
+    padding-top: 2rem;
+}
+
+@media (max-width: 767px) {
+    .home-image {
+        background-image: url(../../../public/images/home/home-page-mobil.jpg);
+    }
+}

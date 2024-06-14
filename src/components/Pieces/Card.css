@@ -1,0 +1,78 @@
+
+.item-card {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    height:12rem;
+    box-shadow: var(--shadow-2);
+    border: 0 solid var(--beige-900);
+    border-left-width: .5rem;
+    position: relative;
+}
+
+.item-card .added-message {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--dark-color);
+    background-color: var(--dark-bg);
+    color: var(--light-color);
+    padding: .7rem 1rem;
+}
+
+.added-message i {
+    color: green;
+}
+
+.item-card p {
+    position: absolute;
+    top: .2rem;
+    right: 3.5rem;
+    border: .1rem solid var(--dark-bg);
+    color: var(--dark-bg);
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .2rem 1.2rem;
+    color: var(--dark-color);
+}
+
+.card-body h3 {
+    font-weight: 400;
+}
+
+.item-price {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.card-image img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover
+}
+
+.add-item {
+    position: absolute;
+    top: 0;
+    right: 0rem;
+    padding: .7rem 1rem;
+    background-color: var(--beige-900);
+    transition: all .4s;
+}
+
+.add-item i {
+    color: var(--light-color);
+}
+
+.add-item:hover {
+    background-color: var(--dark-color);
+
+}
